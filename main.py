@@ -1,9 +1,10 @@
-from getpass import getuser, getpass
+from getpass import getuser
 
 import click
 import os
 
-from commands.user_management import add_user, get_user
+from src.commands.user_management import add_user
+from src.commands.user_management import get_user
 
 
 class HiddenPassword(object):
