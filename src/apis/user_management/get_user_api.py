@@ -24,11 +24,4 @@ def get_user_call(user_req):
         return parser.parse_get_user(res.result)
 
 
-if __name__ == "__main__":
-    request = namedtuple("request", "url username password verify")
-    url = "https://usadevcatmdom01.cotiviti.com:9443"
-    username = "sandeep.chenna"
-    password = "Winter$56789"
-    verify = False
-    req = request(url=url, username=username, password=password, verify=verify)
-    get_user_call(req)
+
