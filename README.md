@@ -1,6 +1,7 @@
 # jboc
 A jboss CLI based on management API for quick adhoc operations.
 
+```sh
 Usage: jboc [OPTIONS] URL COMMAND [ARGS]...
 
   An adhoc Jboss Command Line Utility, to make your life easy.
@@ -15,3 +16,5 @@ Options:
 Commands:
   add-user  Provision RBAC user with a specific role
   get-user  Lists all RBAC users
+
+```
