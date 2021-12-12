@@ -29,14 +29,14 @@ if __name__ == "__main__":
     from getpass import getpass
 
     request = namedtuple("request", "url username password verify payload")
-    url = "https://usadevcatmdom01.cotiiti.com:9443"
+    url = "***"
     payload = {"operation": "read-children-resources",
                "child-type": "role-mapping",
                "recursive": "true",
                "address": ["core-service", "management", "access", "authorization"],
                "json.pretty": 1
                }
-    username = "sandeep.chenna"
+    username = "***"
     password = getpass()
     verify = False
     req = request(url=url, username=username, password=password, verify=verify, payload=payload)
