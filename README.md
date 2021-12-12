@@ -1,7 +1,7 @@
 # jboc
 A jboss CLI based on management API for quick adhoc operations.
 
-```sh
+```text
 Usage: jboc [OPTIONS] URL COMMAND [ARGS]...
 
   An adhoc Jboss Command Line Utility, to make your life easy.
