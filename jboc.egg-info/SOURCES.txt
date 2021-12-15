@@ -1,8 +1,5 @@
+README.md
 setup.py
-commands/__init__.py
-commands/user_management/__init__.py
-commands/user_management/add_user.py
-commands/user_management/get_user.py
 jboc.egg-info/PKG-INFO
 jboc.egg-info/SOURCES.txt
 jboc.egg-info/dependency_links.txt
@@ -11,7 +8,13 @@ jboc.egg-info/not-zip-safe
 jboc.egg-info/requires.txt
 jboc.egg-info/top_level.txt
 src/__init__.py
+src/models.py
 src/apis/__init__.py
+src/apis/status_codes.py
 src/apis/user_management/__init__.py
 src/apis/user_management/add_user_api.py
 src/apis/user_management/get_user_api.py
+src/commands/__init__.py
+src/commands/user_management/__init__.py
+src/commands/user_management/add_user.py
+src/commands/user_management/get_user.py

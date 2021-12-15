@@ -16,7 +16,7 @@ class HiddenPassword(object):
 
 
 @click.group()
-@click.argument("url")
+@click.option("-h", "--url", type=str, help="jboss management url", required=True)
 @click.option("--username", "-u", prompt=True, default=getuser(),
               help="username for connecting to jboss management api")
 @click.option("--password", "-p", prompt=True, default=HiddenPassword(os.environ.get("PASSWORD", "")),
