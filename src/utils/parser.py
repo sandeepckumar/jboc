@@ -18,3 +18,11 @@ def parse_get_user(res):
             users_data.append([user.replace("user-", ""), role])
     output = format_out.format_out(table=users_data, headers=["Name", "Role"])
     click.echo(output)
+
+def parse_get_deployment(res):
+    res_json = res.json()
+    for result in res_json["result"]:
+        for address in result['address']:
+            click.echo(address['deployment'])
+
+

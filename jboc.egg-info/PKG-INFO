@@ -2,12 +2,6 @@ Metadata-Version: 2.1
 Name: jboc
 Version: 0.1.0
 Summary: Just a jboss cli tool for adhoc operations.
-Home-page: UNKNOWN
-License: UNKNOWN
-Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
-
-UNKNOWN
-

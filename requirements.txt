@@ -2,4 +2,4 @@ click~=8.0.3
 requests~=2.26.0
 tabulate~=0.8.9
 urllib3~=1.26.7
-setuptools~=57.0.0
+setuptools~=62.2.0

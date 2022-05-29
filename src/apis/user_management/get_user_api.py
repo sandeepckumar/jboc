@@ -24,6 +24,3 @@ def get_user_call(user_req):
         return parser.parse_error(codes[res.result.status_code])
     else:
         return parser.parse_get_user(res.result)
-
-
-
