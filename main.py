@@ -42,7 +42,8 @@ def cli(ctx, url, username, password, verify, certs):
 
 
 # user management
-
 cli.add_command(get_user.get_user)
 cli.add_command(add_user.add_user)
+
+# deployments
 cli.add_command(get_standalone_deployment.get_standalone_deployment)

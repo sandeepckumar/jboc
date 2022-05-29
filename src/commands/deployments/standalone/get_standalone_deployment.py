@@ -12,5 +12,5 @@ def get_standalone_deployment(ctx):
                   verify=ctx.obj.get("verify"),
                   certs=ctx.obj.get("certs"),
                   payload=None)
-    result = get_standalone_deployment_api(req)
+    result = get_standalone_deployment_api.get_standalone_deployment_api(req)
     return result

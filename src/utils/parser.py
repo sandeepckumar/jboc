@@ -7,7 +7,7 @@ def parse_add_user():
 
 
 def parse_error(e):
-    click.echo(e)
+    click.echo(f"Error: {e}")
 
 
 def parse_get_user(res):
