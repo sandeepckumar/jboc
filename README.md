@@ -53,6 +53,7 @@ Options:
   --help                          Show this message and exit.
 
 $ jboc -u admin --url "https://10.10.10.10:9993" add-user -u new-user -r Monitor
+[SUCCESS] -- URL: https://10.10.10.10:9993 -- USER: test -- ROLE: Monitor -- Provisioned
 ```
 ### 3. List standalone deployments
 ```shell
