@@ -5,7 +5,7 @@ from src.models import request
 @click.command()
 @click.pass_context
 def get_standalone_deployment(ctx):
-    """Lists all deployments for standalone jboss profile"""
+    """Lists all deployments for standalone profile"""
     req = request(username=ctx.obj.get("username"),
                   url=ctx.obj.get("url"),
                   password=ctx.obj.get("password"),
