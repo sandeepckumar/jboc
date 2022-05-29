@@ -58,6 +58,6 @@ $ jboc -u admin --url "https://10.10.10.10:9993" add-user -u new-user -r Monitor
 ### 3. List standalone deployments
 ```shell
 $  jboc.exe -u admin -p 'cleartextpassword'--url "https://10.10.10.10:9993" get-standalone-deployment
-deployement1.war
+deployment1.war
 deployment2.war
 ```
